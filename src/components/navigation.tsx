@@ -23,14 +23,14 @@ export function Navigation() {
   };
 
   return (
-    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 fortress-glass rounded-full px-6 py-2">
-      <div className="flex items-center space-x-8">
+    <nav className="sticky top-0 left-0 right-0 z-50 fortress-glass border-b border-border/50 px-6 py-4">
+      <div className="max-w-6xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2 cursor-pointer" onClick={() => navigate('/')}>
           <Shield className="h-6 w-6 text-fortress-primary" />
-          <span className="font-semibold text-lg">Fortress</span>
+          <span className="font-semibold text-xl">Fortress</span>
         </div>
         
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-8">
           <Button variant="ghost" size="sm" onClick={handleDocsClick}>
             Docs
           </Button>
