@@ -158,22 +158,4 @@ All colors MUST be HSL.
   .fortress-elevated {
     @apply bg-fortress-surface-elevated dark:bg-fortress-surface-elevated;
   }
-
-  .net-pattern {
-    background-image: 
-      linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
-    background-size: 50px 50px;
-  }
-
-  .dark .net-pattern {
-    background-image: 
-      linear-gradient(rgba(59, 130, 246, 0.2) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(59, 130, 246, 0.2) 1px, transparent 1px);
-    background-size: 50px 50px;
-  }
-
-  .copy-button {
-    @apply absolute top-2 right-2 p-2 rounded-md bg-background/80 hover:bg-background border border-border opacity-0 group-hover:opacity-100 transition-opacity duration-200;
-  }
 }
