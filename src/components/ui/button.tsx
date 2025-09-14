@@ -15,6 +15,9 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        fortress: "bg-fortress-primary text-white hover:bg-fortress-primary-hover transition-all duration-200",
+        "fortress-outline": "border border-fortress-primary text-fortress-primary hover:bg-fortress-primary hover:text-white transition-all duration-200",
+        "fortress-ghost": "text-fortress-primary hover:bg-fortress-primary/10 transition-all duration-200",
       },
       size: {
         default: "h-10 px-4 py-2",
