@@ -81,7 +81,10 @@ export const HeroSection = () => {
             </span> {" "}
             {/* <span className="text-accent font-semibold hover:text-accent-glow transition-colors"> GDPR</span>, 
             <span className="text-accent font-semibold hover:text-accent-glow transition-colors"> HIPAA</span>,  */}
-            and data sovereignty requirements without exposing your data to third parties
+            and  {" "}
+            <span className="font-medium bg-gradient-to-r from-blue-400 via-cyan-500 to-blue-700 bg-clip-text text-transparent">
+              data sovereignty
+            </span> {" "} requirements without exposing your data to third parties
           </p>
           
           {/* CTA Buttons */}
