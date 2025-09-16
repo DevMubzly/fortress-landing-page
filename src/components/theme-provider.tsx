@@ -17,7 +17,7 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({
   children,
-  defaultTheme = "system",
+  defaultTheme = "dark",
   storageKey = "fortress-theme",
 }: ThemeProviderProps) {
   const [theme, setTheme] = useState<Theme>(
