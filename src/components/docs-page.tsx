@@ -60,11 +60,11 @@ export function DocsPage() {
           <CardContent className="space-y-6">
             <div>
               <h4 className="font-semibold mb-3">1. Clone the repository</h4>
-              <CodeBlock>git clone https://github.com/your-org/fortress-stack.git</CodeBlock>
+              <CodeBlock>git clone https://github.com/DevMubzly/fortress-stack-v1.git</CodeBlock>
             </div>
             <div>
               <h4 className="font-semibold mb-3">2. Build and start all services</h4>
-              <CodeBlock>{`cd fortress-stack
+              <CodeBlock>{`cd fortress-stack-v1
 docker compose build
 docker compose up`}</CodeBlock>
             </div>
