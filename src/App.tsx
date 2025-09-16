@@ -12,7 +12,7 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <ThemeProvider defaultTheme="dark" storageKey="fortress-theme">
+    <ThemeProvider defaultTheme="light" storageKey="fortress-theme">
       <TooltipProvider>
         <Toaster />
         <Sonner />
