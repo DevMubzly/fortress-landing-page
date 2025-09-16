@@ -5,10 +5,6 @@ import { useNavigate } from "react-router-dom";
 
 export const HeroSection = () => {
   const navigate = useNavigate()
-  // useEffect(() => {
-  //   document.documentElement.classList.remove("dark");
-  //   document.documentElement.classList.add("light");
-  // }, []);
 
   const handleDeployClick = () => {
     navigate("/docs");
