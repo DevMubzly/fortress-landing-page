@@ -95,8 +95,8 @@ export const HeroSection = () => {
               className="text-lg px-8 py-4 group hover:scale-105 transition-all duration-300 bg-gradient-to-r from-blue-400 to-cyan-600 text-white shadow-lg border-none font-semibold"
               onClick={() => handleDeployClick()}
             >
-              <CloudLightning className="h-6 w-6 text-fortress-primary" />
-              Deploy Fortress Infrastructure Today
+              <CloudLightning className="h-6 w-6 text-white" />
+              Deploy Fortress Today
             </Button>
             <Button
               // variant="outline-hero"
