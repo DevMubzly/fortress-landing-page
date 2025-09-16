@@ -44,7 +44,7 @@ export function Navigation() {
             Docs
           </Button>
           <Button variant="ghost" size="sm" asChild>
-            <a href="https://github.com/fortress-ai" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/DevMubzly/fortress-stack-v1.git" target="_blank" rel="noopener noreferrer">
               <Github className="h-4 w-4 mr-2" />
               GitHub
             </a>
