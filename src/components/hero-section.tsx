@@ -101,7 +101,7 @@ export const HeroSection = () => {
             <Button
               // variant="outline-hero"
               size="lg"
-              className="text-lg px-8 py-4 group hover:scale-105 hover:text-blue-500 hover:bg-transparent  transition-all duration-300 border-2 border-blue-400 text-primary bg-background font-semibold"
+              className="text-lg px-8 py-4 group hover:scale-105 hover:text-blue-500 hover:bg-transparent  transition-all duration-300 border-2 border-blue-400 text-primary bg-transparent font-semibold"
             >
               <GitBranch className="h-5 w-5 mr-2 group-hover:rotate-12 transition-transform" />
               Join on GitHub
