@@ -9,6 +9,9 @@ export const HeroSection = () => {
   const handleDeployClick = () => {
     navigate("/docs");
   }
+  const handleGithubLink = () => {
+    window.open("https://github.com/DevMubzly/fortress-stack-v1.git", "_blank");
+  }
   
   return (
     <section className="fixed inset-0 w-screen h-screen flex items-center justify-center overflow-hidden" >
@@ -102,6 +105,7 @@ export const HeroSection = () => {
               // variant="outline-hero"
               size="lg"
               className="text-lg px-8 py-4 group hover:scale-105 hover:text-blue-500 hover:bg-transparent  transition-all duration-300 border-2 border-blue-400 text-primary bg-transparent font-semibold"
+              onClick={() => handleGithubLink()}
             >
               <GitBranch className="h-5 w-5 mr-2 group-hover:rotate-12 transition-transform" />
               Join on GitHub
